@@ -1,1 +1,25 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body header .navbar {
+  background-image: url(../images/wp6351146.webp);
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: right;
+}
+body header .navbar .navbar-brand:hover {
+  color: white;
+}
+body header .navbar .navbar-brand {
+  color: orange;
+  margin-left: 10px;
+}
+body header .navbar .nav-link, body header .navbar .active:hover {
+  color: white !important;
+}
+body header .navbar .nav-link, body header .navbar .active {
+  color: orange !important;
+}/*# sourceMappingURL=style.css.map */

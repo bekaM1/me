@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    header{
+        .navbar{
+            background-image: url(../images/wp6351146.webp);
+            background-size: cover;
+            background-repeat: none;
+            background-attachment: scroll;
+            background-position: right;
+            
+            .navbar-brand:hover{
+                color: white;
+                
+            }
+            .navbar-brand{
+                color: orange;
+                margin-left: 10px;
+            }
+            .nav-link,.active:hover{
+                color: white !important;
+            }
+            .nav-link,.active{
+                color: orange !important;
+            }
+        }
+    }
+}
