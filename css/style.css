@@ -22,4 +22,11 @@ body header .navbar .nav-link, body header .navbar .active:hover {
 }
 body header .navbar .nav-link, body header .navbar .active {
   color: orange !important;
+}
+body header .navbar .navbar-toggler {
+  box-shadow: none !important;
+  background-color: orange;
+}
+body main {
+  margin-top: 40px;
 }/*# sourceMappingURL=style.css.map */

@@ -24,6 +24,13 @@ body{
             .nav-link,.active{
                 color: orange !important;
             }
+            .navbar-toggler{
+                box-shadow: none !important;
+                background-color: orange;
+            }
         }
+    }
+    main{
+        margin-top: 40px;
     }
 }
