@@ -29,4 +29,44 @@ body header .navbar .navbar-toggler {
 }
 body main {
   margin-top: 40px;
+}
+body main .my-movies {
+  text-align: center;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 50px;
+}
+body main .card-body {
+  background-color: black;
+}
+body main .card-body .card-title {
+  text-align: center;
+  color: chartreuse;
+}
+body main .card-body .card-text {
+  color: white;
+  width: 250px;
+  font-size: 15px;
+}
+body main .card-body .card-text .generation {
+  color: chartreuse;
+}
+body .activities {
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+body .activities .my-hobby {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-family: "Courier New", Courier, monospace;
+}
+body .activities .d-block {
+  width: 80% !important;
+  height: 430px;
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */
